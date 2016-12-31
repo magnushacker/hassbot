@@ -18,7 +18,8 @@ Setup:
 * You first need to create a bot following [these instructions](https://core.telegram.org/bots#6-botfather) (if you have Telegram
 notifications set up in Home Assistant, you have already done this step). 
 * Create a config file called <code>.hassbot.yaml</code> (use the
-example file as a template) and put in your home directory. 
+example file as a template) and put in your home directory. You need to provide the Telegram API key for your bot as well as the
+host and password for your HA instance.
 * At this point you can start the bot with the command <code>python3 hassbot.py</code> and access it in Telegram
 * If you wish, set up a service to autostart the bot when your server starts. If you're using a systemd-based OS, you can use
 the included example service file (put it in /etc/systemd/system and enable it with
