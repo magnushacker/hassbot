@@ -17,6 +17,7 @@ about this and will print "Front Door is open" rather than "Front Door is on".
 Setup:
 * You first need to create a bot following [these instructions](https://core.telegram.org/bots#6-botfather) (if you have Telegram
 notifications set up in Home Assistant, you have already done this step). 
+* Install the python-telegram-bot library. See instructions on https://python-telegram-bot.org - most probably you can do this by simply executing <code>pip3 install python-telegram-bot</code>
 * Create a config file called <code>.hassbot.yaml</code> (use the
 example file as a template) and put in your home directory. You need to provide the Telegram API key for your bot as well as the
 host and password for your HA instance.
