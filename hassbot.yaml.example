@@ -1,0 +1,5 @@
+# Put this in your home directory and call it .hassbot.yaml
+
+telegram_api_key: <TELEGRAM_API_KEY>
+homeassistant_host: <HOSTNAME>
+homeassistant_password: <PASSWORD>
