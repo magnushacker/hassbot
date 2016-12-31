@@ -5,7 +5,7 @@ After=network.target
 [Service]
 Type=simple
 User=%i
-ExecStart=/export/home/hacker/bin/hassbot.py
+ExecStart=/export/home/YOURUSERNAME/bin/hassbot.py
 
 [Install]
 WantedBy=multi-user.target
