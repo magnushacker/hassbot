@@ -25,4 +25,4 @@ the included example service file (put it in /etc/systemd/system and enable it w
 <code>sudo systemctl enable homeassistant@YOURUSERNAME</code>
 and start it with <code>sudo systemctl start homeassistant@YOURUSERNAME</code>
 
-![Hassbot screenshot](/images/hassbot1.png)
+![Hassbot screenshot](/hassbot1.png)
